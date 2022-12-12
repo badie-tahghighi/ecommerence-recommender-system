@@ -10,9 +10,7 @@ def main():
     users = load('csv', 'users_dataset.csv', write_to_file=False)
     interactions = load('csv', 'interactions_dataset.csv', write_to_file=False)
     raw_reviews = load('csv', 'raw_reviews_dataset.csv', write_to_file=False)
-    reviews = generate_reviews(reviews=raw_reviews, user_ids=users['id'].values, target_ids=data['asin'].values,
-                               write_to_file=True)
-    print(reviews)
+    reviews = load('csv', 'reviews_dataset.csv', write_to_file=False)
 
 
 if __name__ == "__main__":
