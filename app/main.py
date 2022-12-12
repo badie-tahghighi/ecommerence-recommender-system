@@ -4,7 +4,7 @@ from utils.io.loader import load
 
 def main():
     initialize_settings()
-    load('csv', 'shoes_dataset.csv')
+    load('json', 'amazon_uk_shoes_dataset.json', write_to_file=False)
 
 
 if __name__ == "__main__":

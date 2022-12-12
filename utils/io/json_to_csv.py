@@ -8,6 +8,7 @@ def json_to_csv(data: pd.DataFrame) -> pd.DataFrame:
             'title': row['title'],
             'price': row['price'],
             'brand': row['brand'],
+            'asin': row['asin'],
         }, index=[0])
         for num in range(len(row['features'])):
             key = list(row['features'][num].keys())[0]
