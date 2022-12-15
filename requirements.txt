@@ -2,3 +2,8 @@ Faker
 pandas
 seaborn
 matplotlib
+transformers
+tensorflow
+sklearn
+nltk
+numpy
