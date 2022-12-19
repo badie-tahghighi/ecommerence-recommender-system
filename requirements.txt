@@ -6,4 +6,7 @@ transformers
 tensorflow
 sklearn
 nltk
+keras
 numpy
+pydot
+graphviz
